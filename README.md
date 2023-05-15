@@ -18,7 +18,7 @@ Sends daily breakdowns of AWS costs to a Slack channel.
 
     ```
     serverless create \
-      --template-url="https://github.com/iandees/aws-billing-to-slack.git" \
+      --template-url="https://github.com/petekip/aws-billing-to-slack" \
       --path="app-aws-cost" \
       --name="app-aws-cost"
     ```
